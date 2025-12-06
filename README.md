@@ -1,42 +1,34 @@
-# Learn Python — Coding Studio
+﻿# Learn Python  Coding Studio
 
-A small collection of learning materials, example scripts, and Jupyter notebooks used for Python lessons and hands-on exercises.
+Learning materials and exercises for Python basics and GUI programming.
 
-**Project layout (root)**
+## Sessions
 
-- `exercise5.ipynb` — Notebook: student grades example and sorting exercises.
-- `sesi-1.ipynb`, `sesi-3.ipynb`, `session5.ipynb` — Teaching notebooks covering basics: print, control flow, data structures, functions, and sorting (bubble sort).
-- `sesi-2_exercise.py` — Small Python script with variables, types, loops, and conditional examples.
-- `helllo.py` — Tiny demo script that prints a greeting.
-- `sesi-6/` — Folder for session 6 materials (notebooks and text files may be inside).
-- `sesi-7/` — GUI examples using `tkinter`:
-  - `button.py`, `entry.py`, `error_handling.py`, `grid.py`, `label.py`, `pack.py`, `place.py`
-- `test.html` — Simple example HTML file.
-- `random.txt`, `test.txt` — Not present in the repository (placeholders referenced during inspection).
+| Session | Content | File |
+|---------|---------|------|
+| **sesi-1** | Basics: print, sequential, selection | sesi-1.ipynb |
+| **sesi-2** | Variables, types, loops, conditionals | sesi-2_exercise.py |
+| **sesi-3** | Data structures: lists, sets, dictionaries | sesi-3.ipynb |
+| **sesi-5** | Sorting algorithms (bubble sort) | session5.ipynb, exercise5.ipynb |
+| **sesi-6** | Session 6 materials | sesi-6/ (folder) |
+| **sesi-7** | GUI with tkinter | sesi-7/ (7 Python files) |
 
-## About
+## Quick start
 
-This workspace is intended for students learning Python basics and simple GUI programming with `tkinter`. Files are organized by session (`sesi-*`) and contain short, focused examples that are easy to run and modify.
-
-## How to run the Python scripts (Windows PowerShell)
-
-Open PowerShell in the project folder (`c:\Users\Lenovo\Documents\learning python`) and run:
-
+Run any Python script:
 ```powershell
-python helllo.py
 python sesi-2_exercise.py
-python sesi-7\button.py    # runs a tkinter demo (requires a GUI environment)
+python sesi-7\button.py          # GUI demo (tkinter)
 ```
 
-Notes:
+Open notebooks in VS Code or Jupyter:
+- sesi-1.ipynb, sesi-3.ipynb, session5.ipynb, exercise5.ipynb
 
-- Notebooks (`.ipynb`) can be opened with VS Code's Jupyter support or in Jupyter Notebook / JupyterLab.
-- `tkinter` is included with standard CPython installs on Windows. If a `tkinter` import fails, ensure Python was installed with the tcl/tk option.
+## Files overview
 
-## Quick file descriptions
-
-- `helllo.py`: Prints "Hello world!" — quick sanity check for Python execution.
-- `sesi-2_exercise.py`: Demonstrates variables, types, formatted strings, conditionals, `for` and `while` loops.
-- `session5.ipynb` / `exercise5.ipynb`: Show bubble sort implementations and a small console demo (sorting products by price/name).
-- `sesi-7/*`: Several small `tkinter` examples demonstrating layout managers (`pack`, `grid`, `place`), widgets (`Label`, `Entry`, `Button`), and simple error handling with dialog boxes.
-### 
+- **sesi-1**: Hello World, arithmetic, if/else
+- **sesi-2_exercise.py**: Variables, string formatting, loops
+- **sesi-3**: Lists, sets, dictionaries, pandas intro
+- **sesi-5**: Bubble sort, sorting by name/price
+- **sesi-6**: (see folder)
+- **sesi-7**: tkinter examples  buttons, entries, dialogs, layouts (pack, grid, place)
